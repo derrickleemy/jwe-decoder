@@ -1,7 +1,8 @@
 # JWEDecoder
 
 JWEDecoder is a lightweight encrypted JWT decoder library written in PHP.
-It was originally written by Kevin Mo (all credits goes to him), and dialed down for a very specific use case.
+It was originally written by Kevin Mo (all credits goes to him), and dialed down for a very specific use case for internal use.
+
 
 ## Features
 
@@ -18,11 +19,14 @@ It was originally written by Kevin Mo (all credits goes to him), and dialed down
 ## Installation
 
 You can install via [Composer](http://getcomposer.org/).
+```
+composer require derrickleemy/jwe-decoder
+```
 
 ```json
 {
     "require": {
-        "derrickleemy/jwe-decoder": "0.1.*"
+        "derrickleemy/jwe-decoder": "1.0.*"
     }
 }
 ```
